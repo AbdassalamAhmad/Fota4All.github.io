@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+
+    <title>Login System</title>
+</head>
+<body>
+    <div class="container">
+    <h1>FOTA APP</h1>
+    <h2>Enter Credentials Here:</h2>
+    <p><input type="email" placeholder="email here" id="email"><br>
+    <input type="password" placeholder="password here" id="password"><br>
+    <button onclick="signIn()" id="signIn" class="btn btn-action">SignIn</button>
+    <button onclick="signUp()" id="signUp" class="btn btn-secondary">SignUp</button>
+    <button onclick="signOut()" id="signOut" class="btn btn-action hide">SignOut</button> </p>
+        Version 1
+        <button id="DownloadV1">DownloadV1 </button><br><br>
+        Version 2
+        <button id="DownloadV2">DownloadV2 </button><br><br>
+        Version 3
+        <button id="DownloadV3">DownloadV3 </button><br><br>
+        Version 4
+        <button id="DownloadV4">DownloadV4 </button><br><br>
+        Installed Version  <input id="InstalledVersionbox" type="text"></input>
+        <button id="GetVersion">Get</button><br><br>
+        Write your UserID  <input id="UserIDbox" type="text"></input><br><br>
+        Type your Dignostics here  <input id="Dignosticsbox" type="text"></input>
+        <button id="SendTxt">Send</button><br><br><br>
+        Check Your Text  <input id="YourDignosticsbox" type="text"></input>
+        <button id="GetText">Get</button><br><br> </div>
+
+
+
+    
+</body>
+</html>
