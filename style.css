@@ -1,13 +1,15 @@
 body {
-    
-    background-image: url(OTA-update-of-a-car-map.png);
-    background-color: lightblue;
+    padding: 10px;
+    background-image: url(FOTA.jpg);
+    background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-size:contain;
-    text-align: left;
+    background-position:center;
+    background-attachment: fixed;
   }
 p {
     color: black;
+
 }
 button {
     background-color: #ffffff;
@@ -36,18 +38,18 @@ input {
   box-sizing: border-box;
 }
 .container{
-
     box-sizing: border-box;
    /* background-color: rgb(79, 179, 212);*/
     margin: auto;
-    width: 33%;
+    width: 50%;
     border: 5px solid rgb(79, 212, 183);
     float: center;
     padding-left: 5px;
-    font-style:inherit;
-    font-size: 25px;
+    text-align:left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
     color: rgb(15, 15, 15);
-    
+    font-weight: bold;
    /* border-color: black;
     border-style: solid;
     border-width: 20px;*/
@@ -56,4 +58,10 @@ input {
 .container h1{
     text-align: center;
     
+}
+@media screen and (max-width: 900px) {
+  .container {   
+    width: 100%;
+    padding: 0;
+  }
 }
