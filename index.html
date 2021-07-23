@@ -99,7 +99,7 @@ firebase.initializeApp(firebaseConfig);
 
                 document.getElementById('DownloadV1').onclick = function(){
                     Ready();
-                    firebase.database().ref('users/'+UserID).update({
+                    firebase.database().ref('users/'+UserID).set({
                         Version: V1,
                         DownloadLink1: DownloadLink1
                     });
@@ -109,7 +109,7 @@ firebase.initializeApp(firebaseConfig);
 
                 document.getElementById('DownloadV2').onclick = function(){
                     Ready();
-                    firebase.database().ref('users/'+UserID).update({
+                    firebase.database().ref('users/'+UserID).set({
                         Version: V2,
                         DownloadLink2: DownloadLink2
 
