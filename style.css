@@ -42,7 +42,7 @@ input {
    /* background-color: rgb(79, 179, 212);*/
     margin: auto;
     width: 50%;
-    border: 5px solid rgb(79, 212, 183);
+    border: 5px solid #1d54bb;
     float: center;
     padding-left: 5px;
     text-align:left;
