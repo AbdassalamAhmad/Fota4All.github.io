@@ -73,6 +73,11 @@ firebase.initializeApp(firebaseConfig);
   // ...
 });
         
+      messaging.onMessage(function(payload) {
+      console.log("Message received. ", payload);
+      // ...
+    });
+        
                 var V1,V2,V3,V4,DownloadLink1,DownloadLink2,DownloadLink3,DownloadLink4,UserID;
                 function Ready(){
                     V1=1;
