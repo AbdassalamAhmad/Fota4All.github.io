@@ -2,7 +2,7 @@ importScripts('https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/8.7.1/firebase-messaging.js');
 
 var firebaseConfig = {
-    apiKey: "AIzaSyCzjSVMrgIz99mWxM6krweJ3KowF9rVO78",
+    apiKey: "",
     authDomain: "iot-demo-16f2c.firebaseapp.com",
     databaseURL: "https://iot-demo-16f2c-default-rtdb.firebaseio.com",
     projectId: "iot-demo-16f2c",
